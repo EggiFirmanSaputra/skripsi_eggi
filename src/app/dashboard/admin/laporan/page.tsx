@@ -12,14 +12,14 @@ const DashboardPage: React.FC = () => {
       </div>
 
       <div className='flex flex-col gap-6 mt-6'>
-        <DateRangePicker 
+        {/* <DateRangePicker 
           onDateRangeChange={(startDate, endDate) => {
             console.log('Date range changed:', startDate, endDate);
           }} 
           onPrint={() => {
             console.log('Print action triggered');
           }} 
-        />
+        /> */}
       </div>
     </div>
   );
